@@ -11,7 +11,7 @@ public class AppConfig {
         Scanner input=new Scanner(System.in);
         int stdentId=input.nextInt();
         String firstName=input.nextLine();
-        
+    ;
         String lastName=input.nextLine();
         student.setstdentId(stdentId);
         student.setfirstName(firstName);
